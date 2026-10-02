@@ -1,0 +1,59 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25&family=Playwrite+CA+Guides&display=swap');
+
+body{
+    background-color: rgb(134, 180, 116);
+}
+#canvas{
+    position:relative;
+    margin:40px;
+}
+#main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    margin-top:100px;
+}
+.camera{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(152, 28, 28);
+    border-radius: 10px;
+    box-shadow: 10px 10px rgb(107, 50, 50);
+}
+button{
+    padding:50px;
+    background-color:black;
+    border:none;
+    border-radius: 50px;
+    margin:20px;
+    box-shadow: inset 5px 5px 2px gray, 10px 10px 5px rgb(21, 21, 21);
+    color:white;
+    font-size: 24px;
+}
+.controls{
+    display: flex;
+    flex-direction: column;
+    margin-right:40px;
+}
+
+.jersey-25-regular {
+  font-family: "Jersey 25", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.cursive {
+  font-family: "Playwrite CA Guides", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.text{
+    color:black;
+    font-size:6em;
+
+}
